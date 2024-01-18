@@ -1,0 +1,45 @@
+1. Easily create and save training programs
+    Required
+        * Create programs consisting of exercises, sets, rep-ranges, and weights
+        * Edit programs 
+    Nice
+        * When typing in exercise name have suggested exercise come up based on typing
+
+
+2. Easily track training sessions
+    Required
+        * Choose a training session.
+        * Track the weight, reps, sets, and exercises in a training session.
+    Nice 
+        * Let user start an unprogrammed training session where they enter each exercise and its sets and reps
+        * Add, remove, or substitute exercises during a training session without changing original program.
+
+
+3. View training history 
+    Required
+        * View record of previous training sessions 
+    Nice 
+        * View the programmed training session on which a training session was based (program and session name and rep ranges) 
+        
+
+
+ToDos:  
+---APP---
+  * Deploy to aws
+
+---PROGRAM-EDITOR---
+  FrontEnd:
+    * Fix the size of the program and session buttons when the name is being edited
+    * Add info button to exlpain how to use the program editor
+
+    * Program and Session Buttons common code in one file 
+    * handleSetList for training sessions being called too many times
+
+---TRAINING-SESSION---
+  FrontEnd:
+  BackEnd:
+
+
+---HISTORY---
+  FrontEnd:
+  BackEnd:

@@ -1,0 +1,61 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px; // Height of the footer
+  background-color: #000;
+  text-align: center;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+  color: #fff; // Make the text white
+  font-size: 0.8em; // Make the text smaller
+  display: flex; // Make the footer a flex container
+
+  //make the flex items (buttons) take up equal space with space around and between them
+  button {
+    flex: 1 1 auto;
+    height: 100%; // Buttons take up entire height
+    line-height: normal; // Center text vertically
+    background-color: #000; // Make the buttons black
+    color: #fff; // Make the text white
+    border: none; // Remove border
+    outline: none; // Remove outline
+    .icon-wrapper {
+      display: inline-block; // Make the icon wrapper inline
+      svg {
+        vertical-align: middle; // Align the icons with the text
+      }
+    }
+    span {
+      justify-content: center; /* Horizontal centering */
+
+    }
+  }
+}
+
+header{
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+
+  .header-text {
+    font-size: 28px; 
+    text-align: center;
+    margin: 0; 
+  }
+  .icon-wrapper svg {
+    font-size: 32px;
+    margin: 10px;
+  }
+  button {
+    background-color: #292828;
+    outline: none;
+    color: #fff;
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 30px;
+    padding: 2px 20px;
+  }
+}
