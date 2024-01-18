@@ -17,6 +17,12 @@
       },
       "api": {
         "workoutapp": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dcploxvm16rxc",
+          "type": "manual"
+        }
       }
     }
   }
