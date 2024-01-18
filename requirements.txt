@@ -26,6 +26,7 @@
 ToDos:  
 ---APP---
   * Deploy to aws
+  * Vite fast refresh?
 
 ---PROGRAM-EDITOR---
   FrontEnd:

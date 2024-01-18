@@ -14,7 +14,7 @@ export default {
   }, 
   build: {
     rollupOptions: {
-      input: './src/js/main.js' 
+      input: 'src/index.html'
     }
   },
 }
