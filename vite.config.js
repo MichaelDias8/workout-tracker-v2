@@ -1,9 +1,7 @@
 import react from '@vitejs/plugin-react'
-import commonjs from '@rollup/plugin-commonjs';
 
 export default {
-  plugins: [react(),
-            commonjs()],
+  plugins: [react()],
   server: {
     host: '0.0.0.0',
   },
@@ -15,6 +13,7 @@ export default {
   build: {
     rollupOptions: {
       input: 'index.html'
-    }
+    },
+    minify: false
   },
 }
