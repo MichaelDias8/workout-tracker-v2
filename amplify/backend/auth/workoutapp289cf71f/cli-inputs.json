@@ -42,7 +42,7 @@
       "Google"
     ],
     "hostedUIProviderMeta": "[{\"ProviderName\":\"Google\",\"authorize_scopes\":\"openid email profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"sub\"}}]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://workoutapp289cf71f-289cf71f-dev.auth.us-east-1.amazoncognito.com/oauth2/idpresponse\",\"http://localhost:5173/\",\"https://master.dcploxvm16rxc.amplifyapp.com/\"],\"LogoutURLs\":[\"https://workoutapp289cf71f-289cf71f-dev.auth.us-east-1.amazoncognito.com/oauth2/idpresponse\",\"http://localhost:5173/\",\"https://master.dcploxvm16rxc.amplifyapp.com/\"]}",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://master.dcploxvm16rxc.amplifyapp.com/\"],\"LogoutURLs\":[\"https://master.dcploxvm16rxc.amplifyapp.com/\"]}",
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
