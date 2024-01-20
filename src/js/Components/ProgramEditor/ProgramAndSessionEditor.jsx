@@ -135,7 +135,7 @@ const ProgramAndSessionEditor = ({ programNamesAndIds, trainingSessionNamesAndId
     // Create new program object with a unique id;
     const maxId = programNamesAndIds.reduce((max, program) => Math.max(max, program.id), 0);
     const newProgram = {
-      id: maxId + 1,
+      id: `${maxId + 1}`,
       name: 'New program',
       order: [],
       trainingSessions: [],
@@ -152,7 +152,7 @@ const ProgramAndSessionEditor = ({ programNamesAndIds, trainingSessionNamesAndId
     // Create new session with unique id
     const maxId = trainingSessionNamesAndIds[selectedProgramId].reduce((max, session) => Math.max(max, session.id), 0);
     const newSession = {
-      id: maxId + 1,
+      id: `${maxId + 1}`,
       name: 'New Session',
       order: [],
       exercises: [],

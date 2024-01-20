@@ -17,7 +17,7 @@ const TrainingSession = ({ programId, sessionId, exerciseIds, client}) => {
   const generateExercise = () => {
     const maxId = exerciseIds.length === 0 ? 0 : Math.max(...exerciseIds);
     return {
-      id: maxId + 1,
+      id: `${maxId + 1}`,
       name: 'New Exercise',
       numSets: 3,
       minReps: 8,
