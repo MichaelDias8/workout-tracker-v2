@@ -18,7 +18,7 @@
     }
   },
   "auth": {
-    "workoutapp289cf71f": {
+    "workoutapp5230f8d8": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -36,9 +36,7 @@
         "socialProviders": [
           "GOOGLE"
         ],
-        "usernameAttributes": [
-          "EMAIL"
-        ],
+        "usernameAttributes": [],
         "verificationMechanisms": [
           "EMAIL"
         ]

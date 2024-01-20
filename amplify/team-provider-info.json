@@ -12,9 +12,6 @@
       "AmplifyAppId": "dcploxvm16rxc"
     },
     "categories": {
-      "auth": {
-        "workoutapp289cf71f": {}
-      },
       "api": {
         "workoutapp": {}
       },
@@ -23,6 +20,9 @@
           "appId": "dcploxvm16rxc",
           "type": "manual"
         }
+      },
+      "auth": {
+        "workoutapp5230f8d8": {}
       }
     }
   }

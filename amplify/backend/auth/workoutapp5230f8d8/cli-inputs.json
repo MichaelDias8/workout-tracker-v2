@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "workoutapp289cf71f_identitypool_289cf71f",
+    "identityPoolName": "workoutapp5230f8d8_identitypool_5230f8d8",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "workou289cf71f",
-    "userPoolName": "workoutapp289cf71f_userpool_289cf71f",
+    "resourceNameTruncated": "workou5230f8d8",
+    "userPoolName": "workoutapp5230f8d8_userpool_5230f8d8",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -27,22 +27,19 @@
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [],
     "userpoolClientReadAttributes": [],
-    "userpoolClientLambdaRole": "workou289cf71f_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "workou5230f8d8_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "289cf71f",
-    "resourceName": "workoutapp289cf71f",
+    "sharedId": "5230f8d8",
+    "resourceName": "workoutapp5230f8d8",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "manual",
     "hostedUI": true,
-    "usernameAttributes": [
-      "email"
-    ],
-    "hostedUIDomainName": "workoutapp289cf71f-289cf71f",
+    "hostedUIDomainName": "workouttracker",
     "authProvidersUserPool": [
       "Google"
     ],
     "hostedUIProviderMeta": "[{\"ProviderName\":\"Google\",\"authorize_scopes\":\"openid email profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"sub\"}}]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:5173/\"],\"LogoutURLs\":[\"http://localhost:5173/\"]}",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:5173/\",\"https://master.dcploxvm16rxc.amplifyapp.com/\"],\"LogoutURLs\":[\"http://localhost:5173/\",\"https://master.dcploxvm16rxc.amplifyapp.com/\"]}",
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
